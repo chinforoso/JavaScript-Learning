@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(170, 128, 137);            
+}
+section {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(51, 41, 41, 0.493);
+}
+h1 {
+    font-family: 'Texturina', serif;
+    font-size: 30px;
+    color: rgba(51, 18, 5, 0.692);
+    text-align: center;
+}
+p#rodape {
+    font-family: 'Nerko One', cursive;
+    color: rgba(109, 38, 9, 0.527);
+    font-size: 23px;
+    text-align: center;
+}
+p.txt-caixa {
+    font-family: 'Nerko One', cursive;
+    font-size: 18px;
+    color: rgba(163, 49, 7, 0.712);
+}
+input#baset {
+    width: 20%;
+    background-color: rgba(228, 239, 250, 0.938);
+    color:rgb(172, 76, 96);    
+    margin-left: 10px;    
+}
+input#altura {
+    width: 20%;
+    background-color: rgba(228, 239, 250, 0.938);
+    color:rgb(172, 76, 96); 
+    margin-left: 2px;
+}
+input#botao {
+    width: 15%;
+    background-color: rgba(27, 4, 9, 0.637);
+    color: rgb(224, 195, 201);
+    cursor: pointer;    
+    margin: 4px 2px;
+}
+img#casinha {
+    float: right;
+}
+div#result {
+    font-family: fantasy;
+    font-size: 18px;
+    color: rgba(173, 87, 55, 0.808);
+}

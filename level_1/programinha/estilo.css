@@ -1,0 +1,28 @@
+body {
+    background-color: paleturquoise;            
+}
+section {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+}
+h1 {
+    font-family: 'Texturina', serif;
+    font-size: 30px;
+    color: orange;
+    text-align: center;
+}
+p#rodape {
+    font-family: 'Nerko One', cursive;
+    color: orange;
+    font-size: 23px;
+    text-align: center;
+}
+div#caixa {
+    font-family: 'Nerko One', cursive;
+    font-size: 28px;
+    color: orangered;
+}
