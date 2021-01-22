@@ -60,3 +60,9 @@ h1 {
     cursor: pointer;
     transition: all 1s;
 }
+footer {
+    text-align: center;
+}
+footer p {
+    font: bold 15px sans-serif;
+}
