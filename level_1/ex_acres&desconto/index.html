@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="./img/carrinho.ico" type="image/x-icon">
+    <title>Shopping Tudo</title>
+</head>
+<body>
+    <header>
+        <h1>Shopping Tudo</h1>
+        <p>Ofertas imbatíveis, confira!</p>
+    </header>
+
+    <section class="principal">
+        <h1>Sejam bem-vindos à nossa loja!</h1>
+        <p id="welcome">Sinta-se à vontade.</p>
+        <div class="principal" id="container">
+            <div id="produtos">
+                <p> Produto: 
+                    <input type="text" name="produto" id="product">
+                </p>
+            </div>
+            <div id="precos">
+                <p> Preço: <input type="number" name="price" id="price">
+                        %: <input type="number" name="percent" id="perc">     
+                    <input type="button" value="Desconto" class="botao" onclick="descontar()">
+                    <input type="button" value="Juros" class="botao" id="butaum" onclick="acrescer()">               
+                </p>    
+                <p>
+                   
+                </p>                                              
+            </div>
+            <div id="resultado">
+                <p> Total: ↓ </p>
+                <p id="total"> </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por: Chinforoso®</p>
+    </footer>
+
+    
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
